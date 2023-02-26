@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding : 0%;
+}
+
+input{
+    padding: 0.7rem;
+    border: 1px solid rgba(196, 196, 196, 0.683);
+    outline: none;
+    border-radius: 5px;
+
+}
+.home {
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+form{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.coin{
+    padding: 2rem;
+    background-color: rgb(233, 224, 224);
+    border-radius: 10px;
+    width: 200px;
+    height: 270px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 10px;
+
+}
+.coin > img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+.coin > h3 {
+    text-transform: uppercase;
+}
+
+.loading{
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.loading p {
+    font: 400 2rem sans-serif;
+    margin: 3rem;
+}
+
+.loading > div {
+    width: 300px;
+    height: 300px;
+    border-bottom: 1px solid rgb(65, 65, 65);
+    border-radius: 50%;
+    animation: rotation 0.5s infinite ease-in;
+}
+
+@keyframes rotation {
+    to {
+        transform: rotateZ(360deg)
+    }
+}
+
+
+
+
