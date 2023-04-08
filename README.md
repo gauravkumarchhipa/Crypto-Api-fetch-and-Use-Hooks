@@ -14,4 +14,4 @@ Open [http://localhost:3000]
 "react-icons": "^3.11.0",
 "react-router-dom": "^6.8.1"
 # Description
-This react project in Crypro api fetch using axios.
+This react project in Crypto api fetch using axios.
